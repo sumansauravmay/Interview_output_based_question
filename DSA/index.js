@@ -41,7 +41,7 @@ for(let i=0;i<str.length;i++){
 if(str[i]==" "){
     bag=bag+"00";
 }else{
-    bag+=str[i]
+    bag+=str[i];
 }
 }
-console.log(bag)
+console.log(bag);
