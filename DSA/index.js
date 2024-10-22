@@ -28,11 +28,6 @@
 // let x=distinctVeal([[1,2,3], [2,3,4], [3,4,5],[5,6,7,8]]);
 // console.log(x.map(Number));
 
-
-
-
-
-
 // 2. At place of space put 00.
 
 // let str="I am Suman";
@@ -45,7 +40,6 @@
 // }
 // }
 // console.log(bag);
-
 
 // 3. Reverse the array from k;
 
@@ -63,7 +57,6 @@
 // let arr=[...arr2,...arr1];
 // console.log(arr);
 
-
 // 4. Reverse the numbers given in the the bag. types is number initially
 
 // let nums=123456;
@@ -74,35 +67,75 @@
 // }
 // console.log(bag);
 
-
 // 5. Reverse the string whose position is event.
 
-let str = "I am suman saurav";
-let arr = str.trim().split(" ");
+// let str = "I am suman saurav";
+// let arr = str.trim().split(" ");
 
-let bag = "";
-for (let i = 0; i < arr.length; i++) {
-  if (i % 2 === 1) {
-    for (let j = arr[i].length - 1; j >= 0; j--) {
-      bag += arr[i][j];
-    }
-  } else {
-    bag += arr[i];
-  }
-  
+// let bag = "";
+// for (let i = 0; i < arr.length; i++) {
+//   if (i % 2 === 1) {
+//     for (let j = arr[i].length - 1; j >= 0; j--) {
+//       bag += arr[i][j];
+//     }
+//   } else {
+//     bag += arr[i];
+//   }
+//   if (i < arr.length - 1) {
+//     bag += " ";
+//   }
+// }
+// console.log(bag);
 
-  if (i < arr.length - 1) {
-    bag += " ";
-  }
-}
+// 6. Convert it in Object
 
-console.log(bag);
+// let arr = [
+//   {
+//     id: 1,
+//       name: "s"
+//   },
+//   {
+//     id: 2,
+//       name: "sa"
+//   },
+//   {
+//     id: 3,
+//       name: "sau"
+//   }
+// ];
 
+// let obj = arr.reduce((acc, item) => {
+//   acc[item.id] = item.name;
+//   return acc;
+// }, {});
+// console.log(obj);
 
+// 7. Convert it in Object
 
+// let arr = [
+//   {
+//     id: 1,
+//     info: {
+//       name: "s"
+//     }
+//   },
+//   {
+//     id: 2,
+//     info: {
+//       name: "sa"
+//     }
+//   },
+//   {
+//     id: 3,
+//     info: {
+//       name: "sau"
+//     }
+//   }
+// ];
 
+// let obj = arr.reduce((acc, item) => {
+//   acc[item.id] = item.info.name;
+//   return acc;
+// }, {});
 
-
-
-
-
+// console.log(obj);
