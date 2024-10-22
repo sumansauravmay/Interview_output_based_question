@@ -49,23 +49,30 @@
 
 // 3. Reverse the array from k;
 
-let nums=[1,2,3,4,5,7,6,8];
-let k=3;
-let arr1=[];
-let arr2=[];
+// let nums=[1,2,3,4,5,7,6,8];
+// let k=3;
+// let arr1=[];
+// let arr2=[];
 
-for(let i=0;i<=k;i++){
-    arr1.push(nums[i])
+// for(let i=0;i<=k;i++){
+//     arr1.push(nums[i])
+// }
+// for(let j=k+1;j<nums.length;j++){
+//     arr2.push(nums[j])
+// }
+// let arr=[...arr2,...arr1];
+// console.log(arr);
+
+
+// 4. Reverse the numbers given in the the bag. types is number initially
+
+let nums=123456;
+let str=nums.toString();
+let bag="";
+for(let i=str.length-1;i>=0;i--){
+bag+=str[i];
 }
-for(let j=k+1;j<nums.length;j++){
-    arr2.push(nums[j])
-}
-let arr=[...arr2,...arr1];
-console.log(arr)
-
-
-
-
+console.log(bag);
 
 
 
